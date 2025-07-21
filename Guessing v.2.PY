@@ -15,6 +15,6 @@ while Guess_count<guess_limit:
           print("higher")
      
 if Guess_count == guess_limit and Guess != I:
-     print("Sorry youre out of tries")
+     print("Sorry youre out of tries, The correct number " + str(I))
 else:
      print("Your guess count is  " + str(Guess_count) + " and the number is " + str(I))
